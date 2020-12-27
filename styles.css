@@ -1,3 +1,7 @@
+/* 
+ ~ Author: Tridib Samanta
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
 
 /* root selector */
@@ -24,10 +28,33 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    color: var(--primary-text-color);
+    text-align: center;
+    
+}
+
+h2 span {
+    color: tomato;
+}
+
+h2 span:hover {
+    color: var(--primary-text-color);
+}
+
+h3 {
+    color: var(--primary-text-color);
+    padding-top: 2rem;
+}
+
 /* horizontal line */
 
 hr {
     margin: 2rem 0rem;
+}
+
+.hr-sub-header {
+    margin-top: -0.5rem;
 }
 
 /* containers */
@@ -47,6 +74,15 @@ hr {
     border-color: var(--secondary-text-color);
     border-radius: 2rem;
     border-width: 2px;
+}
+
+.container-desc {
+    max-width: 800px;
+    margin:auto;
+}
+
+.container-sub-header {
+    padding: 0rem 1.5rem;
 }
 
 /* lists */
@@ -122,4 +158,52 @@ a:hover, a:active{
     text-align: center;
 }
 
+/* section */
 
+.section-utility {
+    padding: 1rem;
+    /* background-color:#FEF2F2;
+    border-radius: 1.5rem; */
+    
+}
+
+/* images */
+
+.img-ss {
+    opacity: 0.6;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* Make image responsive */
+    /* max-width: 100%;
+    height: auto; */
+    transition: 0.5s;
+}
+
+img:hover {
+    transition: 0.5s;
+    opacity: 1;
+    zoom: 1.1;
+}
+
+/* footer */
+
+.footer-std {
+    padding: 2rem;
+    text-align: center;
+}
+
+.footer-std a {
+    color: var(--primary-text-color);
+    text-align: center;
+    padding: 0.2rem 0.5rem;
+    border: solid;
+    border-width: 1.5px;
+    border-radius: 0.5rem;
+}
+
+/* .footer-std a:hover {
+    color: whitesmoke;
+    background-color: var(--primary-text-color);
+} */
