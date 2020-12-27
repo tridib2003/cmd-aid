@@ -58,3 +58,50 @@ hr {
 .ul-spacing {
     margin: 1rem;
 }
+
+/* links */
+
+.link-idx {
+    text-decoration: none;
+}
+
+/* tables */
+
+.table-idx {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-idx th {
+    color: var(--primary-text-color);
+    background-color: gainsboro;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: var(--primary-text-color);
+    padding: 1.5rem;
+    text-align: center;
+    text-decoration: underline;
+    font-size: large;
+    
+}
+
+.table-idx td {
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: var(--primary-text-color);
+    padding: 1rem;
+}
+
+.table-idx tr:nth-child(even) {
+    background-color: #F5F5F4;
+}
+
+.table-idx tr:hover {
+    background-color:#E7E5E4;
+}
+
+.table-idx td:nth-child(1) {
+    text-align: center;
+}
+
+
