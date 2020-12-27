@@ -61,8 +61,25 @@ hr {
 
 /* links */
 
-.link-idx {
+a:link {
+    color: var(--primary-text-color);
     text-decoration: none;
+    
+}
+
+a:visited {
+    color: tomato;
+    text-decoration: underline;
+}
+
+a:hover, a:active{
+    /* text-decoration: underline; */
+    color: var(--secondary-text-color);
+    /* font-size: larger; */
+    border: solid;
+    border-width: 1px;
+    border-radius: 0.5rem;
+    padding: 0.2rem 0.5rem;
 }
 
 /* tables */
@@ -86,6 +103,7 @@ hr {
 }
 
 .table-idx td {
+    color: var(--secondary-text-color);
     border-bottom: solid;
     border-width: 1px;
     border-color: var(--primary-text-color);
